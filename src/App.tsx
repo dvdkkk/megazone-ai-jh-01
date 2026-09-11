@@ -27,6 +27,7 @@ import {
   ChevronUp,
   CheckCircle2,
   Send,
+  Phone,
   Building,
   Target,
   ArrowRight,
@@ -241,7 +242,7 @@ const coursesData: CourseTrack[] = [
     projectTitle: 'Data Pipeline Project',
     projectDesc: ' — E-commerce 실시간 로그 분석 파이프라인, 금융 이상 거래 탐지(FDS) 스트리밍 처리, LLM 학습을 위한 대규모 말뭉치(Corpus) 전처리 및 벡터화 파이프라인 구축.',
     careers: ['#데이터 엔지니어', '#빅데이터 플랫폼 엔지니어', '#클라우드 데이터 엔지니어', '#데이터 아키텍트'],
-    detailUrl: 'https://megazone-ai-jh-04.vercel.app'
+    detailUrl: 'https://megazone-ai-04.vercel.app'
   }
 ];
 
@@ -739,7 +740,7 @@ export default function App() {
     // 2. Background transmission with keepalive: true to https://inputhaven.com/api/v1/submit
     try {
       const payload = new FormData();
-      payload.append('_form_id', 'e0753dd0894eeda822c09200b6c34a1e');
+      payload.append('_form_id', '4b48ff0860870d737ff49af3d635afaf');
       payload.append('name', currentData.name);
       payload.append('age', currentData.age);
       payload.append('phone', currentData.phone);
@@ -918,7 +919,7 @@ export default function App() {
                 <span className="sum-label">
                   <Clock className="icon-inline text-cyan" /> 교육 기간
                 </span>
-                <strong className="sum-val">984시간 · 약 6개월 (평일 09:00~18:00 · 2026년 9월 21일 개강)</strong>
+                <strong className="sum-val">984시간 · 약 6개월 (평일 09:00~18:00 · 2026년 10월 6일 개강)</strong>
               </div>
               <div className="summary-item">
                 <span className="sum-label">
@@ -2378,7 +2379,7 @@ export default function App() {
                 method="POST"
                 onSubmit={handleFormSubmit}
               >
-                <input type="hidden" name="_form_id" value="e0753dd0894eeda822c09200b6c34a1e" />
+                <input type="hidden" name="_form_id" value="4b48ff0860870d737ff49af3d635afaf" />
                 {/* Row 1: Name & Age */}
                 <div className="apply-form-row-2">
                   <div className="apply-form-group">
